@@ -1,22 +1,16 @@
-#Boolean date types True and False
-spam = True
-print(spam)
-# compartison operators
-print(42 == 42)
-print(42 == 99)
-print(2 != 3)
-print(2 != 2)
-print('hello' == 'hello')
-print('hello' == 'Hello')
-print('dog' != 'cat')
-print(True == True)
-print(True != False)
-print(42 == 42.0)
-print(42 == '42')
-print(42 < 100)
-print(42 > 100)
-print(42 < 42)
-eggs = 42
-print(eggs <= 42)
-my_age = 43
-print(my_age >= 44)
+username = 'Phil'
+password = 'hello123'
+if username == 'Phil': #all flow control statements end with a colon
+    print('Hi Phil')
+    if password == 'hello123':
+        print('Access granted.')
+    else:
+        print('wrong password')
+
+name = 'Alice'
+age = 33
+if name == 'Alice':
+    print('Hi Alice')
+elif age < 12:
+    print('You are not alice')
+
